@@ -7,6 +7,8 @@ You'll also need python 3.8 version.
 If you do not have poetry: 
 
     curl -sSL https://install.python-poetry.org | python3
+
+Then, run:
 	
     docker-compose up -d
     poetry shell
