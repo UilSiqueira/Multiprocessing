@@ -5,7 +5,8 @@ You'll need to install Docker and Docker compose to be able to run DBs instances
 You'll also need python 3.8 version.
 
 If you do not have poetry: 
-curl -sSL https://install.python-poetry.org | python3
+
+    curl -sSL https://install.python-poetry.org | python3
 	
     docker-compose up -d
     poetry shell
