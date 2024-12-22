@@ -1,4 +1,4 @@
-# Converting 1_000_000 MongoDB documents to PostgreSQL records in 3 minutes.
+# Converting 1_000_000 MongoDB documents to PostgreSQL records with multiprocessing.
 
 You'll need to install Docker and Docker compose to be able to run DBs instances
 You'll also need python 3.8 version.
