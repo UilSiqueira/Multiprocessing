@@ -8,7 +8,7 @@ from typing import Dict, Generator, Any
 
 
 ITEMS_PER_PAGE = 4000
-CLUSTER_SIZE = 80  # In reality, the program will only utilize the number of CPU cores available on your computer, In my case 8 cores.
+CLUSTER_SIZE = 80  # Actually, the program will only utilize the number of CPU cores available on your computer, In my case 8 cores.
 
 
 def get_all_paged_data(students_collection: Dict[str, Any], items_per_page: int, progress, page: int = 0) -> Generator[Dict, Any, Any]:
